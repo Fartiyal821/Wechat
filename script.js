@@ -1,4 +1,4 @@
-const socket = new WebSocket("ws://localhost:9001");
+const socket = new WebSocket("ws://YOUR_PUBLIC_IP:9001");
 
 const form = document.getElementById("chat-form");
 const chatBox = document.getElementById("chat-box");
